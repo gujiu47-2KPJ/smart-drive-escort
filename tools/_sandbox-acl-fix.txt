@@ -1,0 +1,510 @@
+﻿==================================================================
+  Codex sandbox ACL repair
+==================================================================
+  time      : 2026-10-02 14:21:20
+  elevated  : True
+  identity  : TIANXUAN\gujiu
+  target    : G:\codex-workspace\.git
+
+--- 1. BEFORE ---
+  owner : TIANXUAN\CodexSandboxOffline
+    S-1-5-21-2049171194-3885028009-635310661-2587427240 Allow  Modify, Synchronize
+    TIANXUAN\CodexSandboxUsers                     Allow  Modify, Synchronize
+    S-1-5-21-727189158-3408820820-2081806279-1956126428 Allow  Modify, Synchronize
+    BUILTIN\Administrators                         Allow  FullControl
+    BUILTIN\Administrators                         Allow  268435456
+    NT AUTHORITY\SYSTEM                            Allow  FullControl
+    NT AUTHORITY\SYSTEM                            Allow  268435456
+    NT AUTHORITY\Authenticated Users               Allow  Modify, Synchronize
+    NT AUTHORITY\Authenticated Users               Allow  -536805376
+    BUILTIN\Users                                  Allow  ReadAndExecute, Synchronize
+    BUILTIN\Users                                  Allow  -1610612736
+
+--- 2. backup ACL ---
+  已处理的文件: G:\codex-workspace\.git
+  已处理的文件: G:\codex-workspace\.git\COMMIT_EDITMSG
+  已处理的文件: G:\codex-workspace\.git\config
+  已处理的文件: G:\codex-workspace\.git\description
+  已处理的文件: G:\codex-workspace\.git\HEAD
+  已处理的文件: G:\codex-workspace\.git\hooks
+  已处理的文件: G:\codex-workspace\.git\index
+  已处理的文件: G:\codex-workspace\.git\info
+  已处理的文件: G:\codex-workspace\.git\logs
+  已处理的文件: G:\codex-workspace\.git\objects
+  已处理的文件: G:\codex-workspace\.git\refs
+  已处理的文件: G:\codex-workspace\.git\hooks\applypatch-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\commit-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\fsmonitor-watchman.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\post-update.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-applypatch.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-commit.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-merge-commit.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-push.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-rebase.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-receive.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\prepare-commit-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\push-to-checkout.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\sendemail-validate.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\update.sample
+  已处理的文件: G:\codex-workspace\.git\info\exclude
+  已处理的文件: G:\codex-workspace\.git\info\refs
+  已处理的文件: G:\codex-workspace\.git\logs\HEAD
+  已处理的文件: G:\codex-workspace\.git\logs\refs
+  已处理的文件: G:\codex-workspace\.git\logs\refs\heads
+  已处理的文件: G:\codex-workspace\.git\logs\refs\heads\main
+  已处理的文件: G:\codex-workspace\.git\objects\08
+  已处理的文件: G:\codex-workspace\.git\objects\0d
+  已处理的文件: G:\codex-workspace\.git\objects\18
+  已处理的文件: G:\codex-workspace\.git\objects\1e
+  已处理的文件: G:\codex-workspace\.git\objects\2d
+  已处理的文件: G:\codex-workspace\.git\objects\32
+  已处理的文件: G:\codex-workspace\.git\objects\37
+  已处理的文件: G:\codex-workspace\.git\objects\3b
+  已处理的文件: G:\codex-workspace\.git\objects\4c
+  已处理的文件: G:\codex-workspace\.git\objects\4d
+  已处理的文件: G:\codex-workspace\.git\objects\68
+  已处理的文件: G:\codex-workspace\.git\objects\6a
+  已处理的文件: G:\codex-workspace\.git\objects\6c
+  已处理的文件: G:\codex-workspace\.git\objects\73
+  已处理的文件: G:\codex-workspace\.git\objects\76
+  已处理的文件: G:\codex-workspace\.git\objects\85
+  已处理的文件: G:\codex-workspace\.git\objects\92
+  已处理的文件: G:\codex-workspace\.git\objects\94
+  已处理的文件: G:\codex-workspace\.git\objects\9b
+  已处理的文件: G:\codex-workspace\.git\objects\a5
+  已处理的文件: G:\codex-workspace\.git\objects\ae
+  已处理的文件: G:\codex-workspace\.git\objects\b2
+  已处理的文件: G:\codex-workspace\.git\objects\b6
+  已处理的文件: G:\codex-workspace\.git\objects\b7
+  已处理的文件: G:\codex-workspace\.git\objects\b9
+  已处理的文件: G:\codex-workspace\.git\objects\c0
+  已处理的文件: G:\codex-workspace\.git\objects\cc
+  已处理的文件: G:\codex-workspace\.git\objects\d6
+  已处理的文件: G:\codex-workspace\.git\objects\dc
+  已处理的文件: G:\codex-workspace\.git\objects\e1
+  已处理的文件: G:\codex-workspace\.git\objects\e3
+  已处理的文件: G:\codex-workspace\.git\objects\e6
+  已处理的文件: G:\codex-workspace\.git\objects\e9
+  已处理的文件: G:\codex-workspace\.git\objects\eb
+  已处理的文件: G:\codex-workspace\.git\objects\info
+  已处理的文件: G:\codex-workspace\.git\objects\pack
+  已处理的文件: G:\codex-workspace\.git\objects\08\036dcfe7050bfdc1ca108bd62c630ed6eec704
+  已处理的文件: G:\codex-workspace\.git\objects\08\90350b273e3c9f3268150129208e21df37fbfc
+  已处理的文件: G:\codex-workspace\.git\objects\0d\21aabe7f41e9647d52839ccb34b67b8afb76d0
+  已处理的文件: G:\codex-workspace\.git\objects\18\884bd1f35eede192e989a98ee066d35a6876fc
+  已处理的文件: G:\codex-workspace\.git\objects\1e\15d4dab37ed54556f5b71ffe04fdd226e143fb
+  已处理的文件: G:\codex-workspace\.git\objects\2d\429ab35374d507c83e350b7a7ffb7a00db4ade
+  已处理的文件: G:\codex-workspace\.git\objects\32\01b982c5e29b67d6ff8ace4cb719f1741d8f2f
+  已处理的文件: G:\codex-workspace\.git\objects\37\173f4cc4095d7dfdaec22eae087f97f07be78b
+  已处理的文件: G:\codex-workspace\.git\objects\3b\85ebc7f9423eeb480b65a7e9274cf6ad032133
+  已处理的文件: G:\codex-workspace\.git\objects\4c\22ceede4ce90c869a449464ab803aa326de3b8
+  已处理的文件: G:\codex-workspace\.git\objects\4d\e271fde61cb67f6265188e343c22bcf89bbc6b
+  已处理的文件: G:\codex-workspace\.git\objects\68\41e3c68ebe208cc84b7e511834d5eee20a27fb
+  已处理的文件: G:\codex-workspace\.git\objects\6a\a905c3d56b7b1bd6b1f2cbc45b568872f95e82
+  已处理的文件: G:\codex-workspace\.git\objects\6c\f1a1987245857de5a823b6acdb68727fea8957
+  已处理的文件: G:\codex-workspace\.git\objects\73\8d45c112f0652ba81ac34c6cc2160fc592f03d
+  已处理的文件: G:\codex-workspace\.git\objects\73\f3dbc42b6da0150a9dde3bcdc7dd60cc249ff8
+  已处理的文件: G:\codex-workspace\.git\objects\76\eec89db6ca39cb70f1828a7d08f5c84b46d514
+  已处理的文件: G:\codex-workspace\.git\objects\85\193e99831f05b4adf0d93a9a88589f5817984c
+  已处理的文件: G:\codex-workspace\.git\objects\92\37f11ce6d4ffbbc312d84df19ce3d17ada38a7
+  已处理的文件: G:\codex-workspace\.git\objects\94\c316eb58ffc965a4eb6844e37e589d9f4ae4e9
+  已处理的文件: G:\codex-workspace\.git\objects\9b\b74ce8766d50c6fde368c3c1af522bbb2d3268
+  已处理的文件: G:\codex-workspace\.git\objects\a5\e9b40d700ff09ea0ed196a20ac659d3b4cbe4d
+  已处理的文件: G:\codex-workspace\.git\objects\ae\1ffb3d448ec703a940df1175b851937d67d514
+  已处理的文件: G:\codex-workspace\.git\objects\b2\163f52e5d6b5c2b06d4146d54100850e75a8a6
+  已处理的文件: G:\codex-workspace\.git\objects\b6\4ced37948b937350d10e62d1acc6f55978e2c6
+  已处理的文件: G:\codex-workspace\.git\objects\b7\dc1abfe630f08843f46c7c43a9d21d26a1861c
+  已处理的文件: G:\codex-workspace\.git\objects\b9\ad4b4815ac60a592b21be97d965d41501691e6
+  已处理的文件: G:\codex-workspace\.git\objects\c0\b5869557295ffd16e5d19d40a15c9452bd87d4
+  已处理的文件: G:\codex-workspace\.git\objects\cc\b6719d25a61323ac4b76152514cd832f91e73e
+  已处理的文件: G:\codex-workspace\.git\objects\d6\45c9c7f2b64238fa600867e92e1514021b83fa
+  已处理的文件: G:\codex-workspace\.git\objects\d6\8a29a5b40075dded065f394bab02ab1064cf25
+  已处理的文件: G:\codex-workspace\.git\objects\dc\d0e18d648f90d20ca8a87451bc2c80769e77e8
+  已处理的文件: G:\codex-workspace\.git\objects\e1\d978e29f4f3c5f4cdd1d867889ad4f5d5c60fc
+  已处理的文件: G:\codex-workspace\.git\objects\e3\91fb7d63d18380e70bbc171f8d947cd838b4c8
+  已处理的文件: G:\codex-workspace\.git\objects\e3\d1463be24ba11daf8ab8144c4a2a00aa74f07a
+  已处理的文件: G:\codex-workspace\.git\objects\e6\6457048c29a22a59bde5e254935ab527bd55a5
+  已处理的文件: G:\codex-workspace\.git\objects\e9\6c40373a7074c8e9a4ccb31312639aedb91d95
+  已处理的文件: G:\codex-workspace\.git\objects\eb\79ede8920421b26f66d827af8269af4848eb51
+  已处理的文件: G:\codex-workspace\.git\objects\info\packs
+  已处理的文件: G:\codex-workspace\.git\objects\pack\multi-pack-index
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.idx
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.pack
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.rev
+  已处理的文件: G:\codex-workspace\.git\refs\heads
+  已处理的文件: G:\codex-workspace\.git\refs\tags
+  已处理的文件: G:\codex-workspace\.git\refs\heads\main
+  已成功处理 113 个文件; 处理 0 个文件时失败
+  saved: G:\codex-workspace\backup\git-acl-20261002-142120\git-acl.txt
+
+--- 3. takeown ---
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\COMMIT_EDITMSG" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\config" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\description" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\HEAD" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\index" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\info" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\logs" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\refs" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\applypatch-msg.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\commit-msg.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\fsmonitor-watchman.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\post-update.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-applypatch.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-commit.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-merge-commit.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-push.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-rebase.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\pre-receive.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\prepare-commit-msg.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\push-to-checkout.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\sendemail-validate.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\hooks\update.sample" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\info\exclude" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\info\refs" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\logs\HEAD" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\logs\refs" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\logs\refs\heads" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\logs\refs\heads\main" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\08" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\0d" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\18" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\1e" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\2d" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\32" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\37" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\3b" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\4c" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\4d" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\68" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\6a" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\6c" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\73" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\76" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\85" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\92" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\94" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\9b" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\a5" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\ae" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b2" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b7" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b9" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\c0" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\cc" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\d6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\dc" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e1" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e3" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e9" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\eb" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\info" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\pack" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\08\036dcfe7050bfdc1ca108bd62c630ed6eec704" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\08\90350b273e3c9f3268150129208e21df37fbfc" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\0d\21aabe7f41e9647d52839ccb34b67b8afb76d0" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\18\884bd1f35eede192e989a98ee066d35a6876fc" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\1e\15d4dab37ed54556f5b71ffe04fdd226e143fb" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\2d\429ab35374d507c83e350b7a7ffb7a00db4ade" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\32\01b982c5e29b67d6ff8ace4cb719f1741d8f2f" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\37\173f4cc4095d7dfdaec22eae087f97f07be78b" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\3b\85ebc7f9423eeb480b65a7e9274cf6ad032133" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\4c\22ceede4ce90c869a449464ab803aa326de3b8" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\4d\e271fde61cb67f6265188e343c22bcf89bbc6b" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\68\41e3c68ebe208cc84b7e511834d5eee20a27fb" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\6a\a905c3d56b7b1bd6b1f2cbc45b568872f95e82" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\6c\f1a1987245857de5a823b6acdb68727fea8957" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\73\8d45c112f0652ba81ac34c6cc2160fc592f03d" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\73\f3dbc42b6da0150a9dde3bcdc7dd60cc249ff8" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\76\eec89db6ca39cb70f1828a7d08f5c84b46d514" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\85\193e99831f05b4adf0d93a9a88589f5817984c" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\92\37f11ce6d4ffbbc312d84df19ce3d17ada38a7" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\94\c316eb58ffc965a4eb6844e37e589d9f4ae4e9" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\9b\b74ce8766d50c6fde368c3c1af522bbb2d3268" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\a5\e9b40d700ff09ea0ed196a20ac659d3b4cbe4d" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\ae\1ffb3d448ec703a940df1175b851937d67d514" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b2\163f52e5d6b5c2b06d4146d54100850e75a8a6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b6\4ced37948b937350d10e62d1acc6f55978e2c6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b7\dc1abfe630f08843f46c7c43a9d21d26a1861c" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\b9\ad4b4815ac60a592b21be97d965d41501691e6" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\c0\b5869557295ffd16e5d19d40a15c9452bd87d4" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\cc\b6719d25a61323ac4b76152514cd832f91e73e" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\d6\45c9c7f2b64238fa600867e92e1514021b83fa" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\d6\8a29a5b40075dded065f394bab02ab1064cf25" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\dc\d0e18d648f90d20ca8a87451bc2c80769e77e8" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e1\d978e29f4f3c5f4cdd1d867889ad4f5d5c60fc" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e3\91fb7d63d18380e70bbc171f8d947cd838b4c8" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e3\d1463be24ba11daf8ab8144c4a2a00aa74f07a" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e6\6457048c29a22a59bde5e254935ab527bd55a5" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\e9\6c40373a7074c8e9a4ccb31312639aedb91d95" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\eb\79ede8920421b26f66d827af8269af4848eb51" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\info\packs" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\pack\multi-pack-index" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.idx" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.pack" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.rev" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\refs\heads" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\refs\tags" 现在由用户 "TIANXUAN\gujiu" 所有。
+  
+  成功: 此文件(或文件夹): "G:\codex-workspace\.git\refs\heads\main" 现在由用户 "TIANXUAN\gujiu" 所有。
+
+--- 4. grant FullControl to current user ---
+  已处理的文件: G:\codex-workspace\.git
+  已处理的文件: G:\codex-workspace\.git\COMMIT_EDITMSG
+  已处理的文件: G:\codex-workspace\.git\config
+  已处理的文件: G:\codex-workspace\.git\description
+  已处理的文件: G:\codex-workspace\.git\HEAD
+  已处理的文件: G:\codex-workspace\.git\hooks
+  已处理的文件: G:\codex-workspace\.git\index
+  已处理的文件: G:\codex-workspace\.git\info
+  已处理的文件: G:\codex-workspace\.git\logs
+  已处理的文件: G:\codex-workspace\.git\objects
+  已处理的文件: G:\codex-workspace\.git\refs
+  已处理的文件: G:\codex-workspace\.git\hooks\applypatch-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\commit-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\fsmonitor-watchman.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\post-update.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-applypatch.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-commit.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-merge-commit.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-push.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-rebase.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\pre-receive.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\prepare-commit-msg.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\push-to-checkout.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\sendemail-validate.sample
+  已处理的文件: G:\codex-workspace\.git\hooks\update.sample
+  已处理的文件: G:\codex-workspace\.git\info\exclude
+  已处理的文件: G:\codex-workspace\.git\info\refs
+  已处理的文件: G:\codex-workspace\.git\logs\HEAD
+  已处理的文件: G:\codex-workspace\.git\logs\refs
+  已处理的文件: G:\codex-workspace\.git\logs\refs\heads
+  已处理的文件: G:\codex-workspace\.git\logs\refs\heads\main
+  已处理的文件: G:\codex-workspace\.git\objects\08
+  已处理的文件: G:\codex-workspace\.git\objects\0d
+  已处理的文件: G:\codex-workspace\.git\objects\18
+  已处理的文件: G:\codex-workspace\.git\objects\1e
+  已处理的文件: G:\codex-workspace\.git\objects\2d
+  已处理的文件: G:\codex-workspace\.git\objects\32
+  已处理的文件: G:\codex-workspace\.git\objects\37
+  已处理的文件: G:\codex-workspace\.git\objects\3b
+  已处理的文件: G:\codex-workspace\.git\objects\4c
+  已处理的文件: G:\codex-workspace\.git\objects\4d
+  已处理的文件: G:\codex-workspace\.git\objects\68
+  已处理的文件: G:\codex-workspace\.git\objects\6a
+  已处理的文件: G:\codex-workspace\.git\objects\6c
+  已处理的文件: G:\codex-workspace\.git\objects\73
+  已处理的文件: G:\codex-workspace\.git\objects\76
+  已处理的文件: G:\codex-workspace\.git\objects\85
+  已处理的文件: G:\codex-workspace\.git\objects\92
+  已处理的文件: G:\codex-workspace\.git\objects\94
+  已处理的文件: G:\codex-workspace\.git\objects\9b
+  已处理的文件: G:\codex-workspace\.git\objects\a5
+  已处理的文件: G:\codex-workspace\.git\objects\ae
+  已处理的文件: G:\codex-workspace\.git\objects\b2
+  已处理的文件: G:\codex-workspace\.git\objects\b6
+  已处理的文件: G:\codex-workspace\.git\objects\b7
+  已处理的文件: G:\codex-workspace\.git\objects\b9
+  已处理的文件: G:\codex-workspace\.git\objects\c0
+  已处理的文件: G:\codex-workspace\.git\objects\cc
+  已处理的文件: G:\codex-workspace\.git\objects\d6
+  已处理的文件: G:\codex-workspace\.git\objects\dc
+  已处理的文件: G:\codex-workspace\.git\objects\e1
+  已处理的文件: G:\codex-workspace\.git\objects\e3
+  已处理的文件: G:\codex-workspace\.git\objects\e6
+  已处理的文件: G:\codex-workspace\.git\objects\e9
+  已处理的文件: G:\codex-workspace\.git\objects\eb
+  已处理的文件: G:\codex-workspace\.git\objects\info
+  已处理的文件: G:\codex-workspace\.git\objects\pack
+  已处理的文件: G:\codex-workspace\.git\objects\08\036dcfe7050bfdc1ca108bd62c630ed6eec704
+  已处理的文件: G:\codex-workspace\.git\objects\08\90350b273e3c9f3268150129208e21df37fbfc
+  已处理的文件: G:\codex-workspace\.git\objects\0d\21aabe7f41e9647d52839ccb34b67b8afb76d0
+  已处理的文件: G:\codex-workspace\.git\objects\18\884bd1f35eede192e989a98ee066d35a6876fc
+  已处理的文件: G:\codex-workspace\.git\objects\1e\15d4dab37ed54556f5b71ffe04fdd226e143fb
+  已处理的文件: G:\codex-workspace\.git\objects\2d\429ab35374d507c83e350b7a7ffb7a00db4ade
+  已处理的文件: G:\codex-workspace\.git\objects\32\01b982c5e29b67d6ff8ace4cb719f1741d8f2f
+  已处理的文件: G:\codex-workspace\.git\objects\37\173f4cc4095d7dfdaec22eae087f97f07be78b
+  已处理的文件: G:\codex-workspace\.git\objects\3b\85ebc7f9423eeb480b65a7e9274cf6ad032133
+  已处理的文件: G:\codex-workspace\.git\objects\4c\22ceede4ce90c869a449464ab803aa326de3b8
+  已处理的文件: G:\codex-workspace\.git\objects\4d\e271fde61cb67f6265188e343c22bcf89bbc6b
+  已处理的文件: G:\codex-workspace\.git\objects\68\41e3c68ebe208cc84b7e511834d5eee20a27fb
+  已处理的文件: G:\codex-workspace\.git\objects\6a\a905c3d56b7b1bd6b1f2cbc45b568872f95e82
+  已处理的文件: G:\codex-workspace\.git\objects\6c\f1a1987245857de5a823b6acdb68727fea8957
+  已处理的文件: G:\codex-workspace\.git\objects\73\8d45c112f0652ba81ac34c6cc2160fc592f03d
+  已处理的文件: G:\codex-workspace\.git\objects\73\f3dbc42b6da0150a9dde3bcdc7dd60cc249ff8
+  已处理的文件: G:\codex-workspace\.git\objects\76\eec89db6ca39cb70f1828a7d08f5c84b46d514
+  已处理的文件: G:\codex-workspace\.git\objects\85\193e99831f05b4adf0d93a9a88589f5817984c
+  已处理的文件: G:\codex-workspace\.git\objects\92\37f11ce6d4ffbbc312d84df19ce3d17ada38a7
+  已处理的文件: G:\codex-workspace\.git\objects\94\c316eb58ffc965a4eb6844e37e589d9f4ae4e9
+  已处理的文件: G:\codex-workspace\.git\objects\9b\b74ce8766d50c6fde368c3c1af522bbb2d3268
+  已处理的文件: G:\codex-workspace\.git\objects\a5\e9b40d700ff09ea0ed196a20ac659d3b4cbe4d
+  已处理的文件: G:\codex-workspace\.git\objects\ae\1ffb3d448ec703a940df1175b851937d67d514
+  已处理的文件: G:\codex-workspace\.git\objects\b2\163f52e5d6b5c2b06d4146d54100850e75a8a6
+  已处理的文件: G:\codex-workspace\.git\objects\b6\4ced37948b937350d10e62d1acc6f55978e2c6
+  已处理的文件: G:\codex-workspace\.git\objects\b7\dc1abfe630f08843f46c7c43a9d21d26a1861c
+  已处理的文件: G:\codex-workspace\.git\objects\b9\ad4b4815ac60a592b21be97d965d41501691e6
+  已处理的文件: G:\codex-workspace\.git\objects\c0\b5869557295ffd16e5d19d40a15c9452bd87d4
+  已处理的文件: G:\codex-workspace\.git\objects\cc\b6719d25a61323ac4b76152514cd832f91e73e
+  已处理的文件: G:\codex-workspace\.git\objects\d6\45c9c7f2b64238fa600867e92e1514021b83fa
+  已处理的文件: G:\codex-workspace\.git\objects\d6\8a29a5b40075dded065f394bab02ab1064cf25
+  已处理的文件: G:\codex-workspace\.git\objects\dc\d0e18d648f90d20ca8a87451bc2c80769e77e8
+  已处理的文件: G:\codex-workspace\.git\objects\e1\d978e29f4f3c5f4cdd1d867889ad4f5d5c60fc
+  已处理的文件: G:\codex-workspace\.git\objects\e3\91fb7d63d18380e70bbc171f8d947cd838b4c8
+  已处理的文件: G:\codex-workspace\.git\objects\e3\d1463be24ba11daf8ab8144c4a2a00aa74f07a
+  已处理的文件: G:\codex-workspace\.git\objects\e6\6457048c29a22a59bde5e254935ab527bd55a5
+  已处理的文件: G:\codex-workspace\.git\objects\e9\6c40373a7074c8e9a4ccb31312639aedb91d95
+  已处理的文件: G:\codex-workspace\.git\objects\eb\79ede8920421b26f66d827af8269af4848eb51
+  已处理的文件: G:\codex-workspace\.git\objects\info\packs
+  已处理的文件: G:\codex-workspace\.git\objects\pack\multi-pack-index
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.idx
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.pack
+  已处理的文件: G:\codex-workspace\.git\objects\pack\pack-782875cfcd46e7dcbf043adddf97539b1ac0bba7.rev
+  已处理的文件: G:\codex-workspace\.git\refs\heads
+  已处理的文件: G:\codex-workspace\.git\refs\tags
+  已处理的文件: G:\codex-workspace\.git\refs\heads\main
+  已成功处理 113 个文件; 处理 0 个文件时失败
+
+--- 5. AFTER ---
+  owner : TIANXUAN\gujiu
+    TIANXUAN\gujiu                                 Allow  FullControl
+    S-1-5-21-2049171194-3885028009-635310661-2587427240 Allow  Modify, Synchronize
+    TIANXUAN\CodexSandboxUsers                     Allow  Modify, Synchronize
+    S-1-5-21-727189158-3408820820-2081806279-1956126428 Allow  Modify, Synchronize
+    BUILTIN\Administrators                         Allow  FullControl
+    BUILTIN\Administrators                         Allow  268435456
+    NT AUTHORITY\SYSTEM                            Allow  FullControl
+    NT AUTHORITY\SYSTEM                            Allow  268435456
+    NT AUTHORITY\Authenticated Users               Allow  Modify, Synchronize
+    NT AUTHORITY\Authenticated Users               Allow  -536805376
+    BUILTIN\Users                                  Allow  ReadAndExecute, Synchronize
+    BUILTIN\Users                                  Allow  -1610612736
+
+--- 6. WRITE_DAC verification (no-op Set-Acl) ---
+  public user can write the DACL now : True
+
+--- 7. git still healthy? ---
+  (git.exe not found at G:\Git\cmd - skipped)
+
+--- 8. summary ---
+  backup : G:\codex-workspace\backup\git-acl-20261002-142120\git-acl.txt
+  rollback:
+    icacls G:\codex-workspace /restore "G:\codex-workspace\backup\git-acl-20261002-142120\git-acl.txt"
+
+  Next: run any command in Codex. Sandboxed exec should now start.

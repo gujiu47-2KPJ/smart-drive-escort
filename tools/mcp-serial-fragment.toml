@@ -1,0 +1,26 @@
+
+# ============================================================
+# MCP servers for the ESP32-S3 multimodal fusion project
+# (radar MS60-1211S80M / AT6010  +  IMU BMI270)
+#
+# Mirrored from the ReasonIX / OpenCode MCP configuration on this
+# machine, keeping only the servers this project actually uses.
+#
+# Added: 2026-10-02
+# Why serial: gives structured UART access (list ports, open, read,
+# readline, read_until, write, flush, DTR/RTS control) so the radar
+# and IMU can be sniffed on the wire without re-flashing firmware
+# just to look at bytes.
+#
+# Verified before install: real MCP initialize + tools/list handshake
+# returned serial-mcp-server v1.29.0 with 27 tools.
+#
+# To disable without deleting: set enabled = false below.
+# ============================================================
+
+[mcp_servers.serial]
+command = 'D:\opencode\venv-mcp1\Scripts\python.exe'
+args = ['-m', 'serial_mcp_server.server']
+enabled = true
+startup_timeout_sec = 20
+tool_timeout_sec = 120

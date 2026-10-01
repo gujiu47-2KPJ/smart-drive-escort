@@ -1,0 +1,34 @@
+{
+  // ============================================================
+  // ESP-IDF 扩展 —— MS60-1211S80M (AT6010) 雷达调试工程
+  // ============================================================
+
+  // ---- CMake Tools 扩展：指定 ESP-IDF 自带的 cmake ----
+  "cmake.cmakePath": "D:/Espressif/tools/cmake/4.0.3/bin/cmake.exe",
+
+  // ---- ESP-IDF 扩展：直接注入环境变量（绕过 export.bat 无法在 pwsh 下执行的问题） ----
+  "idf.espIdfPath": "D:/esp/v6.0.2/esp-idf",
+  "idf.toolsPath": "D:/Espressif",
+  "idf.pythonBinPath": "D:/Espressif/python_env/idf6.0_py3.12_env/Scripts/python.exe",
+  "idf.customExtraVars": {
+    "IDF_PATH": "D:/esp/v6.0.2/esp-idf",
+    "IDF_TOOLS_PATH": "D:/Espressif",
+    "IDF_PYTHON_ENV_PATH": "D:/Espressif/python_env/idf6.0_py3.12_env",
+    "ESP_IDF_VERSION": "6.0.2"
+  },
+
+  // ---- 调试目标：ESP32-S3 ----
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+
+  // ---- 烧录方式 ----
+  "idf.flashType": "UART",
+
+  // ---- 串口监视器 ----
+  // 调试程序固定 115200 输出（雷达数据走另一个 UART，不冲突）
+  "idf.monitorBaudRate": "115200",
+
+  // ---- menuconfig ----
+  "idf.useIDFKconfigStyle": true,
+  "idf.currentSetup": "D:/esp/v6.0.2/esp-idf",
+  "idf.port": "COM6"
+}

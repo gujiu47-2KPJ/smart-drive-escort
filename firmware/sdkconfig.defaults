@@ -1,0 +1,52 @@
+# 智行护航 —— 主固件默认配置
+# 目标芯片：ESP32-S3-WROOM-1 N16R8
+#          （16 MB Quad SPI Flash + 8 MB Octal SPI PSRAM）
+# 依据：ESP32-S3-WROOM-1 数据手册，本项目技术支持文档目录里有
+
+CONFIG_IDF_TARGET="esp32s3"
+
+# ---------------- CPU ----------------
+# 240 MHz 是 ESP32-S3 的最高主频。默认的 160 MHz 留给摄像头取帧和
+# 后续端侧推理都不够用，这里直接拉满。
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# ---------------- Flash ----------------
+# 数据手册写明模组用的是 Quad SPI flash，走 QIO 比 IDF 默认的 DIO 快。
+# 若烧录后板子起不来（无限重启、串口无输出），改成：
+#     CONFIG_ESPTOOLPY_FLASHMODE_DIO=y
+#     # CONFIG_ESPTOOLPY_FLASHMODE_QIO is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+
+# ---------------- PSRAM ----------------
+# R8 = 8 MB Octal SPI PSRAM。芯片内部 SRAM 只有 512 KB，
+# 摄像头一帧 QVGA RGB565 就要 150 KB，帧缓冲和模型权重必须放 PSRAM。
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y
+CONFIG_SPIRAM_USE_MALLOC=y
+# 开机做 PSRAM 自检：现阶段留着，能第一时间发现 DDR 模式或速率配错。
+# 等系统稳定、要压启动时间时再关掉。
+CONFIG_SPIRAM_MEMTEST=y
+
+# ---------------- 编译 ----------------
+# 性能优先（-O2）。要用 JTAG 单步调试时，可临时改回
+# CONFIG_COMPILER_OPTIMIZATION_DEBUG=y
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+
+# ---------------- 系统 ----------------
+# FreeRTOS 时基 1000 Hz，便于做毫秒级时序
+CONFIG_FREERTOS_HZ=1000
+# 主任务栈（app_main 做初始化 + 日志，留够）
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=4096
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# ---------------- 串口控制台 ----------------
+# 与调试程序保持一致：UART0 115200 8N1
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+
+# ---------------- 分区表 ----------------
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"

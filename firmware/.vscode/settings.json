@@ -1,0 +1,26 @@
+{
+  // ============================================================
+  // ESP-IDF 扩展 —— 智行护航主固件
+  // 这是"团队级"配置，随工程一起纳入版本管理。
+  // 机器相关路径（IDF / 工具链 / Python）不写在这里，
+  // 那些在 VS Code 用户设置里统一维护。
+  // ============================================================
+
+  // ---- 调试目标：ESP32-S3 ----
+  // ESP32-S3 自带 USB-Serial-JTAG，用板载 USB 口就能调试，不需要额外仿真器。
+  // 这个 cfg 内部会自动加载 target/esp32s3.cfg。
+  // 别用 board/esp32-wrover-kit-*.cfg —— 那是 ESP32 的板子，目标芯片对不上。
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+
+  // ---- 烧录方式 ----
+  // 走板载 CH343 的 USB 串口下载（可选值：UART / JTAG / DFU）
+  "idf.flashType": "UART",
+
+  // ---- 串口监视器 ----
+  // 本工程固定 115200 输出，这里写死，避免监视器波特率不对看到乱码
+  "idf.monitorBaudRate": "115200",
+
+  // ---- menuconfig ----
+  // 打开 IDF 风格，能看到全部配置项（CPU 频率、PSRAM、Flash 都在里面）
+  "idf.useIDFKconfigStyle": true
+}

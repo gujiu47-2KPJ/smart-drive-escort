@@ -1,0 +1,17 @@
+{
+  // ============================================================
+  // ESP-IDF 扩展 —— HW-991 (BMI270) 调试工程
+  // ============================================================
+
+  // ---- 调试目标：ESP32-S3 ----
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+
+  // ---- 烧录方式 ----
+  "idf.flashType": "UART",
+
+  // ---- 串口监视器 ----
+  "idf.monitorBaudRate": "115200",
+
+  // ---- menuconfig ----
+  "idf.useIDFKconfigStyle": true
+}

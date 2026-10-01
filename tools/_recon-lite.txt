@@ -1,0 +1,226 @@
+﻿
+==================================================================
+  0. BASIC INFO
+==================================================================
+  time                          : 2026-10-02 14:07:09
+  PSVersion                     : 5.1.26100.2161
+  PSEdition                     : Desktop
+  OutputEncoding                : utf-8
+  CurrentDir                    : G:\codex-workspace
+
+==================================================================
+  1. DRIVE FREE SPACE
+==================================================================
+  C                             : C:\  free 25.7 GB / total 200.66 GB
+  D                             : D:\  free 106.92 GB / total 450 GB
+  E                             : E:\  free 118.06 GB / total 274 GB
+  G                             : G:\  free 905.36 GB / total 1861.98 GB
+
+==================================================================
+  2. POWERSHELL PROFILES
+==================================================================
+
+  [FOUND] C:\Users\gujiu\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+  size bytes                    : 663
+  has UTF8 BOM                  : False
+  ---- content begin ----
+  | # UTF-8 鎺у埗鍙扮粺涓€閰嶇疆 (added 2026-09-30)
+  | # 浣滅敤: 璁?pwsh / python / git / ESP-IDF 鐨勪腑鏂囦笌绗﹀彿涓嶄贡鐮?
+  | # 鎾ら攢: 鍒犻櫎鏈枃浠跺嵆鍙?
+  | try {
+  |     [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+  |     [Console]::InputEncoding  = [System.Text.Encoding]::UTF8
+  |     $OutputEncoding           = [System.Text.Encoding]::UTF8
+  |     $PSDefaultParameterValues["Out-File:Encoding"]   = "utf8"
+  |     $PSDefaultParameterValues["Set-Content:Encoding"] = "utf8"
+  |     $PSDefaultParameterValues["Add-Content:Encoding"] = "utf8"
+  | } catch { }
+  | if ($Host.Name -eq "ConsoleHost") { try { & "$env:SystemRoot\System32\chcp.com" 65001 | Out-Null } catch { } }
+  ---- content end ----
+  [none]  C:\Users\gujiu\Documents\PowerShell\profile.ps1
+
+  [FOUND] C:\Users\gujiu\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+  size bytes                    : 532
+  has UTF8 BOM                  : True
+  ---- content begin ----
+  | # UTF-8 控制台统一配置 (added 2026-09-30)
+  | # 5.1 默认 $OutputEncoding 是 ASCII，中文会变成问号，这里改成 UTF-8
+  | # 撤销: 删除本文件即可
+  | try {
+  |     [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
+  |     [Console]::InputEncoding  = New-Object System.Text.UTF8Encoding($false)
+  |     $OutputEncoding           = New-Object System.Text.UTF8Encoding($false)
+  | } catch { }
+  | if ($Host.Name -eq "ConsoleHost") { try { & "$env:SystemRoot\System32\chcp.com" 65001 | Out-Null } catch { } }
+  ---- content end ----
+  [none]  C:\Users\gujiu\Documents\WindowsPowerShell\profile.ps1
+  [none]  C:\Users\gujiu\.config\powershell\profile.ps1
+
+==================================================================
+  3. ENVIRONMENT
+==================================================================
+  HOME                          : C:\Users\gujiu
+  USERPROFILE                   : C:\Users\gujiu
+  CODEX_HOME                    : 
+  XDG_CACHE_HOME                : 
+  IDF_PATH                      : 
+  IDF_TOOLS_PATH                : 
+  TEMP                          : C:\Users\gujiu\AppData\Local\Temp
+  TMP                           : C:\Users\gujiu\AppData\Local\Temp
+  NPM_CONFIG_CACHE              : 
+  PIP_CACHE_DIR                 : 
+  HF_HOME                       : 
+  ELECTRON_USER_DATA            : 
+
+  --- PATH entries (MISSING ones indicate a broken PATH) ---
+  [ 1] [OK]      C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe
+  [ 2] [OK]      E:\vitureBox\bin\
+  [ 3] [OK]      C:\Program Files (x86)\STMicroelectronics\stlink_server
+  [ 4] [MISSING] C:\ST\STM32CubeCLT_1.18.0
+  [ 5] [MISSING] C:\ST\STM32CubeCLT_1.18.0\CMake\bin
+  [ 6] [MISSING] C:\ST\STM32CubeCLT_1.18.0\Ninja\bin
+  [ 7] [MISSING] C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin
+  [ 8] [MISSING] C:\ST\STM32CubeCLT_1.18.0\STLink-gdb-server\bin
+  [ 9] [MISSING] C:\ST\STM32CubeCLT_1.18.0\STM32CubeProgrammer\bin
+  [10] [OK]      C:\Windows\system32
+  [11] [OK]      C:\Windows
+  [12] [OK]      C:\Windows\System32\Wbem
+  [13] [OK]      C:\Windows\System32\WindowsPowerShell\v1.0\
+  [14] [OK]      C:\Windows\System32\OpenSSH\
+  [15] [OK]      C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+  [16] [OK]      C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR
+  [17] [OK]      C:\Program Files\dotnet\
+  [18] [OK]      C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\
+  [19] [OK]      C:\Program Files\Microsoft SQL Server\160\Tools\Binn\
+  [20] [OK]      C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+  [21] [OK]      C:\Program Files\Microsoft SQL Server\160\DTS\Binn\
+  [22] [OK]      C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\
+  [23] [MISSING] C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility
+  [24] [MISSING] C:\Program Files\AskLink
+  [25] [OK]      E:\leraning\
+  [26] [MISSING] D:\MSYS2\mingw64\bin
+  [27] [OK]      C:\Program Files (x86)\dotnet\
+  [28] [MISSING] F:\yolov8 trainng\Git\cmd
+  [29] [OK]      E:\xstfp\
+  [30] [OK]      G:\Git\cmd
+  [31] [OK]      E:\node.js\
+  [32] [OK]      G:\Git\bin
+  [33] [OK]      D:\npm
+  [34] [OK]      C:\Users\gujiu\AppData\Local\Programs\Python\Python312\Scripts\
+  [35] [OK]      C:\Users\gujiu\AppData\Local\Programs\Python\Python312\
+  [36] [OK]      E:\tools\openocd\xpack-openocd-0.12.0-7\bin
+  [37] [OK]      C:\Users\gujiu\AppData\Local\Programs\Python\Python310\Scripts\
+  [38] [OK]      C:\Users\gujiu\AppData\Local\Programs\Python\Python310\
+  [39] [OK]      C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps
+  [40] [OK]      E:\Vscode\Microsoft VS Code\bin
+  [41] [OK]      E:\c\MinGW\bin
+  [42] [OK]      C:\Users\gujiu\AppData\Roaming\npm
+  [43] [MISSING] D:\opencode\app
+  [44] [OK]      D:\opencode
+  PATH char count               : 1657
+
+==================================================================
+  4. KEY DIRECTORY SIZES (shallow, fast)
+==================================================================
+  C:\Users\gujiu\.codex         : 0.84 GB
+  C:\Users\gujiu\.cache\codex-runtimes: 1.306 GB
+  C:\Users\gujiu\.cache         : 2.908 GB
+  C:\Users\gujiu\.espressif     : 6.789 GB
+  D:\Espressif                  : 6.789 GB
+  D:\esp                        : 0.556 GB
+
+==================================================================
+  5. MCP CONFIG CANDIDATES
+==================================================================
+  [EXISTS] C:\Users\gujiu\AppData\Roaming\Code\User\settings.json   (4844 bytes)
+  [none]   C:\Users\gujiu\AppData\Roaming\Code\User\mcp.json
+  [none]   C:\Users\gujiu\AppData\Roaming\Code\mcp.json
+  [none]   C:\Users\gujiu\AppData\Roaming\Claude\claude_desktop_config.json
+  [none]   C:\Users\gujiu\AppData\Roaming\claude_desktop_config.json
+  [EXISTS] C:\Users\gujiu\.claude.json   (389 bytes)
+  [EXISTS] C:\Users\gujiu\.claude\settings.json   (522 bytes)
+  [none]   C:\Users\gujiu\.claude\mcp.json
+  [EXISTS] C:\Users\gujiu\.codex\config.toml   (1922 bytes)
+  [none]   C:\Users\gujiu\.cursor\mcp.json
+  [none]   C:\Users\gujiu\AppData\Roaming\Cursor\User\settings.json
+  [none]   C:\Users\gujiu\.gemini\settings.json
+
+  --- VS Code settings.json lines mentioning mcp ---
+  (no match)
+
+==================================================================
+  6. MCP SERVER INSTALL TRACES
+==================================================================
+
+  [EXISTS] G:\.serial_mcp
+      [DIR] traces
+
+  [EXISTS] G:\.omo
+      [DIR] run-continuation
+
+  [EXISTS] G:\.reasonix
+      [DIR] attachments
+            desktop-topic-auto-title-meta.json
+            desktop-topic-created-at.json
+            desktop-topic-title-sources.json
+            desktop-topic-titles.json
+
+  [EXISTS] G:\.codegraph
+  [none]   G:\.mcp
+
+  --- global npm packages ---
+    @modelcontextprotocol
+    @upstash
+    @wonderwhy-er
+    context7
+
+  --- npx cache folders ---
+    (no npx cache)
+
+==================================================================
+  7. G DRIVE TOP LEVEL
+==================================================================
+  [DIR] $RECYCLE.BIN
+  [DIR] .codegraph
+  [DIR] .omo
+  [DIR] .reasonix
+  [DIR] .serial_mcp
+  [DIR] 2025级机械电子工程人才培养方案
+  [DIR] BaiduNetdiskDownload
+  [DIR] c-program2025
+  [DIR] CAD作业
+  [DIR] CloudMusic
+  [DIR] codex-workspace
+  [DIR] Config.Msi
+  [DIR] diary
+  [DIR] esp32project
+  [DIR] game_git
+  [DIR] Git
+  [DIR] pip_cache
+  [DIR] reasonix_workspace
+  [DIR] soild works
+  [DIR] SteamLibrary
+  [DIR] stm32project
+  [DIR] System Volume Information
+  [DIR] temp_amct
+  [DIR] temp_caffe
+  [DIR] temp_doc
+  [DIR] vital file
+  [DIR] vm_share
+  [DIR] vscode
+  [DIR] 下载
+  [DIR] 嵌入式资料
+        2026.4.19.dwg
+        CentOS-7-x86_64-Minimal-1804.iso
+        centOS7.zip
+        cxh大数据.zip
+        dss.zip
+        DSS成功运行.zip
+        frp.zip
+        hadoop.zip
+        office.zip
+
+==================================================================
+  8. END
+==================================================================
+  Nothing was modified.

@@ -1,0 +1,23 @@
+# 统一换行：仓库里一律存 LF，检出到工作区也用 LF
+* text=auto eol=lf
+
+# 明确标记为二进制，避免被当成文本处理
+*.pdf   binary
+*.rar   binary
+*.zip   binary
+*.7z    binary
+*.exe   binary
+*.pkg   binary
+*.dll   binary
+*.bin   binary
+*.elf   binary
+*.map   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.doc   binary
+*.docx  binary
+
+# Windows 脚本保持 CRLF，避免某些工具不认
+*.bat   text eol=crlf
+*.cmd   text eol=crlf

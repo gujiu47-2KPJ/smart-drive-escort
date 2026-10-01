@@ -1,0 +1,23 @@
+# HW-991 (BMI270) 调试工程
+#
+# 刻意保持接近 IDF 默认值，只改必要项。原因：这是个"排查工具"，
+# 一旦这里的配置和主固件不一样，出问题时就分不清是传感器的问题
+# 还是配置的问题。所以：
+#   - 不开 PSRAM（本工程只用 I2C + 串口，用不到）
+#   - CPU 保持默认 160 MHz（50 Hz 采样绰绰有余，也少一份发热干扰温度读数）
+#   - 不做编译优化调优（方便单步调试）
+# 主固件的性能配置见 firmware/sdkconfig.defaults，两边是刻意不同的。
+
+CONFIG_IDF_TARGET="esp32s3"
+
+# N16R8：16MB Flash
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+
+CONFIG_FREERTOS_HZ=1000
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=4096
+
+# 串口：UART0 115200
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y

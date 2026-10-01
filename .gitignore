@@ -1,0 +1,59 @@
+# ============================================================
+# 智行护航 —— 版本库忽略规则
+# ============================================================
+
+# ---------- 编译产物（可由源码重新生成） ----------
+firmware/build/
+imu-debug/build/
+build/
+**/managed_components/
+managed_components/
+.pio/
+__pycache__/
+*.pyc
+
+# ---------- ESP-IDF 自动生成的配置 ----------
+# 注意：sdkconfig.defaults 是要提交的，sdkconfig 是由它生成的，不提交
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# ---------- 编辑器 / 系统临时文件 ----------
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log.tmp
+
+# ---------- 大体积第三方二进制 ----------
+# 这一份 RAR 的内容与同级已解压目录 ESP32-S3 CAM开发板资料/ 完全重复，
+# 提交进来等于把 133 MB 存两遍，因此排除。原始压缩包仍在本地磁盘上。
+Technical Support Document/资料/ESP32-S3 CAM开发板资料.rar
+
+# 第三方 Python IDE（Thonny）安装包，属于板子教程包里的附属软件，
+# 与本项目无关且可随时从官网下载，不纳入版本库。
+Technical Support Document/资料/ESP32-S3 CAM开发板资料/Python/Python_Software/thonny-4.0.1.exe
+Technical Support Document/资料/ESP32-S3 CAM开发板资料/Python/Python_Software/thonny-4.0.1.pkg
+
+# ---------- 含敏感信息，绝不入库 ----------
+# backup/ 内含 Codex 配置备份（config.toml.bak），里面有 API token。
+backup/
+# tools/_mcp-dig.txt 是本机 MCP 配置抓包记录，含 API token。
+tools/_mcp-dig.txt
+
+# ---------- 第三方资料目录（版权 + 体积，暂不入库）----------
+# 内含 Espressif 技术手册、厂商上位机工具、第三方库 zip、厂商教程 PDF 等，
+# 共约 152 MB，均非本项目原创。需要时可单独用 Releases 或网盘分发。
+Technical Support Document/资料/
+
+# Technical Support Document 顶层的厂商文档/工具（同为第三方，版权 + 体积）
+# 保留本项目自己写的 .md 与截图 .png，只排除厂商 PDF / 压缩包 / 文档
+Technical Support Document/*.pdf
+Technical Support Document/*.zip
+Technical Support Document/*.rar
+Technical Support Document/*.doc
+
+# tools/embedded-debugger-mcp 是第三方仓库的克隆（含自己的 .git），
+# 直接提交会形成坏的 gitlink 引用，且非本项目代码。
+tools/embedded-debugger-mcp/

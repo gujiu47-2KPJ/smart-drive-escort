@@ -1,0 +1,449 @@
+﻿
+========================================================================
+  0. CONTEXT
+========================================================================
+  time: 2026-10-02 14:24:16
+
+========================================================================
+  1. DRIVE FREE SPACE
+========================================================================
+  C:\  free 24.69 GB / total 200.66 GB
+  D:\  free 105.04 GB / total 450 GB
+  E:\  free 118.06 GB / total 274 GB
+  G:\  free 905.36 GB / total 1861.98 GB
+
+========================================================================
+  2. JUNCTIONS / SYMLINKS IN THE USER PROFILE (not real C: data)
+========================================================================
+  .codegraph                         -> C:\Users\gujiu\.omo\codegraph\projects\gujiu-12f849badb91fc76
+  .espressif                         -> D:\Espressif
+  .vscode                            -> D:\vscode\.vscode
+  Application Data                   -> 
+  Cookies                            -> 
+  Local Settings                     -> 
+  My Documents                       -> 
+  NetHood                            -> 
+  OneDrive                           -> 
+  PrintHood                          -> 
+  Recent                             -> 
+  SendTo                             -> 
+  Templates                          -> 
+  「开始」菜单                             -> 
+
+========================================================================
+  3. KEY DIRECTORIES, MEASURED WITHOUT FOLLOWING LINKS
+========================================================================
+  C:\Users\gujiu\.codex                          0.851 GB
+  C:\Users\gujiu\.cache                          2.908 GB
+  C:\Users\gujiu\.cache\codex-runtimes           1.306 GB
+  C:\Users\gujiu\.espressif                      LINK -> D:\Espressif  (0 GB on C:)
+  C:\Users\gujiu\.vscode                         LINK -> D:\vscode\.vscode  (0 GB on C:)
+  C:\Users\gujiu\.omo                            0.291 GB
+  C:\Users\gujiu\.reasonix                       0.007 GB
+  C:\Users\gujiu\.claude                         0.021 GB
+  C:\Users\gujiu\.cursor                         (does not exist)
+  C:\Users\gujiu\AppData\Roaming\Code            LINK -> D:\vscode\Code-Roaming  (0 GB on C:)
+  C:\Users\gujiu\AppData\Local                   30.372 GB
+      (skipped link) C:\Users\gujiu\AppData\Local\Application Data
+      (skipped link) C:\Users\gujiu\AppData\Local\History
+      (skipped link) C:\Users\gujiu\AppData\Local\Temporary Internet Files
+      (skipped link) C:\Users\gujiu\AppData\Local\Unity\WebPlayer
+      (skipped link) C:\Users\gujiu\AppData\Local\Programs\CD Projekt Red\REDlauncher
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\WeixinShare_fv0hcek9q9tbw\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\SmartConnectExtInstaller_ra2g5j82mn5h8\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-Word_cw5n1h2txyewy\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftWindows.NarratorExtension-OutlookWebApp_cw5n1h2txyewy\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.5_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MicrosoftCorporationII.WinAppRuntime.Main.1.4_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Winget.Source_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.WinAppRuntime.DDLM.4000.1049.117.0-x6_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.VisualStudioCode_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.PowerShell_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OutlookForWindows_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OneDriveSync_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\Microsoft.Office.ActionsServer_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\MFSyncCloudShell_f7bd3qkyghp9r\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\JAMSoftware.TreeSizeFreeContextMenu_w54gjky5rxhza\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmsysslimmenu_0ht5dsrg4xy0w\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmfiledestroymenu_0ht5dsrg4xy0w\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\dcmdiskfragmentmenu_0ht5dsrg4xy0w\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\BaiduNetdisk.DesktopSyncClient_r5kxaep58dem0\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\ASUSAmbientHAL64_ecvjzhf6c4w7r\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\aimgr_8wekyb3d8bbwe\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\3AD8A913.49937325EFC59_j4r74wbqry4cc\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\AC
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\AppData
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\LocalCache
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\LocalState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\RoamingState
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\Settings
+      (skipped link) C:\Users\gujiu\AppData\Local\Packages\360ZipExtInstaller_4ar96xt453154\TempState
+      (skipped link) C:\Users\gujiu\AppData\Local\Package Cache\{20ae9c9d-53ff-44e7-973b-efb518e01971}
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\OneDrive
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\ArmouryCrate.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant.AsusKeyboardHost.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant.AsusMyASUSNotification.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant.LiveUpdateToastEXE.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.Glidex.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\bash.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\codex-chrome-native-host.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\codex-core-command-runner.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\GameBarElevatedFT_Alias.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\GetHelp.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\launcherrsxruntimeuwp.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\MediaPlayer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\microsoftstore.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\MicrosoftWindows.DesktopStickerEditorCentennial.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\mspaint.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\notepad.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\olk.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\PAD.BrowserNativeMessageHost.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\PAD.ChildSession.Service.Host.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\pbrush.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\pwsh.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\python.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\python3.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\SnippingTool.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\store.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\WindowsPackageManagerMCPServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\WindowsPackageManagerServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\winget.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\wsl.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\wslconfig.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\wt.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\XboxPcAppAdminServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\XboxPcAppCE.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\OpenAI.Codex_2p2nqsd0c76g0\codex-chrome-native-host.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\OpenAI.Codex_2p2nqsd0c76g0\codex-core-command-runner.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\bash.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\wsl.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe\wslconfig.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.ZuneMusic_8wekyb3d8bbwe\MediaPlayer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\GameBarElevatedFT_Alias.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsStore_8wekyb3d8bbwe\microsoftstore.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsStore_8wekyb3d8bbwe\store.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsNotepad_8wekyb3d8bbwe\notepad.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.ScreenSketch_8wekyb3d8bbwe\SnippingTool.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe\pwsh.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe\PAD.BrowserNativeMessageHost.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe\PAD.ChildSession.Service.Host.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.Paint_8wekyb3d8bbwe\mspaint.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.Paint_8wekyb3d8bbwe\pbrush.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.OutlookForWindows_8wekyb3d8bbwe\olk.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.GetHelp_8wekyb3d8bbwe\GetHelp.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.GamingApp_8wekyb3d8bbwe\XboxPcAppAdminServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.GamingApp_8wekyb3d8bbwe\XboxPcAppCE.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\python.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\python3.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\WindowsPackageManagerMCPServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\WindowsPackageManagerServer.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\winget.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.Glidex_qmba6cd70vzyy\B9ECED6F.Glidex.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant_qmba6cd70vzyy\B9ECED6F.ASUSPCAssistant.AsusKeyboardHost.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant_qmba6cd70vzyy\B9ECED6F.ASUSPCAssistant.AsusMyASUSNotification.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ASUSPCAssistant_qmba6cd70vzyy\B9ECED6F.ASUSPCAssistant.LiveUpdateToastEXE.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\B9ECED6F.ArmouryCrate_qmba6cd70vzyy\ArmouryCrate.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\WindowsApps\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_0a9344xs7nr4m\launcherrsxruntimeuwp.exe
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\Windows\Temporary Internet Files
+      (skipped link) C:\Users\gujiu\AppData\Local\Microsoft\Windows\INetCache\Content.IE5
+  C:\Users\gujiu\AppData\Roaming                 11.945 GB
+      (skipped link) C:\Users\gujiu\AppData\Roaming\Code
+      (skipped link) C:\Users\gujiu\AppData\Roaming\Microsoft\Windows\Start Menu\程序
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\w-default\.claude\skills\find-skills
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\w-default\.claude\skills\skill-creator
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\t-default\.claude\skills\find-skills
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\t-default\.claude\skills\skill-creator
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\j4xktnlmv\.claude\skills\find-skills
+      (skipped link) C:\Users\gujiu\AppData\Roaming\CherryStudio\Data\Agents\j4xktnlmv\.claude\skills\skill-creator
+  C:\Users\gujiu\AppData\Local\Temp              1.262 GB
+  C:\Users\gujiu\AppData\Local\npm-cache         (does not exist)
+  C:\Users\gujiu\AppData\Roaming\npm             0.196 GB
+
+========================================================================
+  4. TOP CONSUMERS UNDER C: (links skipped)
+========================================================================
+
+  == C:\Users\gujiu ==
+  C:\Users\gujiu\AppData                                     43.13 GB
+  C:\Users\gujiu\Documents                                   8.785 GB
+  C:\Users\gujiu\Desktop                                     5.757 GB
+  C:\Users\gujiu\.cache                                      2.908 GB
+  C:\Users\gujiu\.marscode                                   2.443 GB
+  C:\Users\gujiu\.stm32cubemx                                1.921 GB
+  C:\Users\gujiu\Videos                                      1.027 GB
+  C:\Users\gujiu\.codex                                      0.851 GB
+  C:\Users\gujiu\STM32Cube                                   0.723 GB
+  C:\Users\gujiu\.claude-server-commander                    0.422 GB
+  C:\Users\gujiu\.omo                                        0.291 GB
+  C:\Users\gujiu\Downloads                                   0.256 GB
+  C:\Users\gujiu\.stmcufinder                                0.151 GB
+  C:\Users\gujiu\.continue                                   0.08 GB
+  C:\Users\gujiu\Pictures                                    0.024 GB
+
+  == C:\Users\gujiu\AppData\Local ==
+  C:\Users\gujiu\AppData\Local\Arduino15                     8.093 GB
+  C:\Users\gujiu\AppData\Local\Microsoft                     4.357 GB
+  C:\Users\gujiu\AppData\Local\Programs                      2.461 GB
+  C:\Users\gujiu\AppData\Local\Quark                         1.976 GB
+  C:\Users\gujiu\AppData\Local\stm32cube                     1.9 GB
+  C:\Users\gujiu\AppData\Local\LCEDA-Pro                     1.283 GB
+  C:\Users\gujiu\AppData\Local\Temp                          1.262 GB
+  C:\Users\gujiu\AppData\Local\NVIDIA                        1.035 GB
+  C:\Users\gujiu\AppData\Local\Doubao                        0.926 GB
+  C:\Users\gujiu\AppData\Local\NetEase                       0.866 GB
+  C:\Users\gujiu\AppData\Local\Packages                      0.839 GB
+  C:\Users\gujiu\AppData\Local\Qianwen                       0.646 GB
+  C:\Users\gujiu\AppData\Local\OpenAI                        0.634 GB
+  C:\Users\gujiu\AppData\Local\perfectworldarena-updater     0.59 GB
+  C:\Users\gujiu\AppData\Local\Steam                         0.487 GB
+
+  == C:\Users\gujiu\AppData\Roaming ==
+  C:\Users\gujiu\AppData\Roaming\Tencent                     4.66 GB
+  C:\Users\gujiu\AppData\Roaming\ACLOS                       1.168 GB
+  C:\Users\gujiu\AppData\Roaming\EA                          0.729 GB
+  C:\Users\gujiu\AppData\Roaming\QQ                          0.544 GB
+  C:\Users\gujiu\AppData\Roaming\QQEX                        0.477 GB
+  C:\Users\gujiu\AppData\Roaming\baidunetdisk                0.367 GB
+  C:\Users\gujiu\AppData\Roaming\cloud-computer-client       0.322 GB
+  C:\Users\gujiu\AppData\Roaming\NVIDIA                      0.29 GB
+  C:\Users\gujiu\AppData\Roaming\jlc-assistant               0.29 GB
+  C:\Users\gujiu\AppData\Roaming\Wmpvp                       0.288 GB
+  C:\Users\gujiu\AppData\Roaming\ai.opencode.desktop         0.28 GB
+  C:\Users\gujiu\AppData\Roaming\Autodesk                    0.244 GB
+  C:\Users\gujiu\AppData\Roaming\reasonix                    0.213 GB
+  C:\Users\gujiu\AppData\Roaming\npm                         0.196 GB
+  C:\Users\gujiu\AppData\Roaming\perfectworldarena           0.17 GB
+
+  == C:\ProgramData ==
+  C:\ProgramData\SOLIDWORKS                                  0.86 GB
+  C:\ProgramData\Autodesk                                    0.762 GB
+  C:\ProgramData\Microsoft                                   0.55 GB
+  C:\ProgramData\NVIDIA                                      0.463 GB
+  C:\ProgramData\ASUS                                        0.321 GB
+  C:\ProgramData\Windows Master Store                        0.285 GB
+  C:\ProgramData\Thunder Network                             0.188 GB
+  C:\ProgramData\USOShared                                   0.075 GB
+  C:\ProgramData\NVIDIA Corporation                          0.064 GB
+  C:\ProgramData\Epic                                        0.056 GB
+  C:\ProgramData\Tencent                                     0.052 GB
+  C:\ProgramData\Package Cache                               0.049 GB
+  C:\ProgramData\USOPrivate                                  0.045 GB
+  C:\ProgramData\AntiCheatExpert                             0.042 GB
+  C:\ProgramData\EA Desktop                                  0.022 GB
+
+  == C:\Program Files ==
+  C:\Program Files\Microsoft Office.cdisk_old                1.783 GB
+  C:\Program Files\dotnet                                    1.008 GB
+  C:\Program Files\ASUS                                      0.864 GB
+  C:\Program Files\Common Files                              0.847 GB
+  C:\Program Files\WSL                                       0.809 GB
+  C:\Program Files\LLVM                                      0.715 GB
+  C:\Program Files\NVIDIA Corporation                        0.602 GB
+  C:\Program Files\Electronic Arts                           0.568 GB
+  C:\Program Files\Lenovo                                    0.504 GB
+  C:\Program Files\EA                                        0.478 GB
+  C:\Program Files\Tencent                                   0.397 GB
+  C:\Program Files\Microsoft SQL Server                      0.139 GB
+  C:\Program Files\MuMuVMMVbox                               0.063 GB
+  C:\Program Files\QuarkUpdater                              0.041 GB
+  C:\Program Files\Reference Assemblies                      0.034 GB
+
+  == C:\Program Files (x86) ==
+  C:\Program Files (x86)\Microsoft                           2.928 GB
+  C:\Program Files (x86)\Common Files                        1.085 GB
+  C:\Program Files (x86)\dotnet                              0.848 GB
+  C:\Program Files (x86)\360                                 0.197 GB
+  C:\Program Files (x86)\InstallShield Installation Information 0.162 GB
+  C:\Program Files (x86)\VMware                              0.101 GB
+  C:\Program Files (x86)\Reference Assemblies                0.04 GB
+  C:\Program Files (x86)\Microsoft Silverlight               0.04 GB
+  C:\Program Files (x86)\Windows Kits                        0.031 GB
+  C:\Program Files (x86)\ASUS                                0.024 GB
+  C:\Program Files (x86)\Microsoft SQL Server                0.02 GB
+  C:\Program Files (x86)\Microsoft XNA                       0.016 GB
+  C:\Program Files (x86)\LightingService                     0.013 GB
+  C:\Program Files (x86)\NVIDIA Corporation                  0.011 GB
+  C:\Program Files (x86)\Rockstar Games                      0.011 GB
+
+  == C:\Windows ==
+  C:\Windows\System32                                        15.587 GB
+  C:\Windows\WinSxS                                          13.196 GB
+  C:\Windows\assembly                                        3.88 GB
+  C:\Windows\Installer                                       3.876 GB
+  C:\Windows\SysWOW64                                        1.39 GB
+  C:\Windows\Microsoft.NET                                   0.878 GB
+  C:\Windows\Fonts                                           0.615 GB
+  C:\Windows\SystemApps                                      0.551 GB
+  C:\Windows\ASUS                                            0.423 GB
+  C:\Windows\servicing                                       0.283 GB
+  C:\Windows\SystemResources                                 0.188 GB
+  C:\Windows\Log                                             0.102 GB
+  C:\Windows\Speech_OneCore                                  0.091 GB
+  C:\Windows\SolidWorks                                      0.089 GB
+  C:\Windows\INF                                             0.087 GB
+
+========================================================================
+  5. END
+========================================================================
+  Nothing was modified.

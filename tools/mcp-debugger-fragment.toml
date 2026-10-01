@@ -1,0 +1,27 @@
+
+# ============================================================
+# Embedded Debugger MCP —— 片上调试（OpenOCD / probe-rs）
+#
+# 来源 : https://github.com/Adancurusul/embedded-debugger-mcp  (MIT)
+# 编译 : Rust 1.99.0 / x86_64-pc-windows-gnu，工具链位于 D:\Rust
+# 验证 : 自带 doctor 报告 config_valid=true；
+#        上游 README 声明已在真实 ESP32-S3 上验证过
+#
+# 能力 : 探针发现 / 目标连接 / 核心控制 / 内存读写 /
+#        断点 / 烧录 / RTT 通信 / 崩溃诊断(diagnose_fault, unwind_exception)
+# 后端 : openocd(GDB RSP) 或 probe-rs，连接时二选一
+#
+# 注意 : 走 openocd 后端时用的是 PATH 里的 openocd。
+#        当前 PATH 中是 E:\tools\openocd\xpack-openocd-0.12.0-7（通用版）；
+#        调 ESP32-S3 时若识别不到芯片，改用 ESP-IDF 自带的
+#        D:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20260424\openocd-esp32\bin\openocd.exe
+#
+# 禁用 : 把下面的 enabled 改成 false 即可
+# ============================================================
+
+[mcp_servers.embedded_debugger]
+command = 'D:\Rust\bin\embedded-debugger-mcp.exe'
+args = ['serve']
+enabled = true
+startup_timeout_sec = 20
+tool_timeout_sec = 180
